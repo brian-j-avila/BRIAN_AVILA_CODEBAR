@@ -1,0 +1,16 @@
+{
+    "name": "vendor/articulos_codebar",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\ArticulosCodebar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "brian avila"
+        }
+    ],
+    "require": {
+        "picqer/php-barcode-generator": "^2.4"
+    }
+}

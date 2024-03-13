@@ -1,0 +1,89 @@
+body{
+    background-color: #ff3434;
+}
+form {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa2c; /* color de fondo más suave */
+    color: #333; /* color de texto más oscuro */
+    border-radius: 10px; /* bordes redondeados */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* texto más destacado */
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif; /* fuente más legible */
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* color azul menos intenso */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif; /* fuente más legible */
+}
+
+/* Estilos para la tabla */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #007bff;
+    text-align: center; /* centrar el texto */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center; /* centrar el texto */
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Estilos para la imagen del código de barras */
+img {
+    max-width: 100%; /* tamaño máximo */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* centrar la imagen */
+}
+
+/* Estilos responsivos */
+@media only screen and (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}
